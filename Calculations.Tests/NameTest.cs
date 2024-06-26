@@ -33,6 +33,6 @@ namespace Calculations.Tests
             var names = new Names();
 
             Assert.Contains("Antônio", names.MakeFullName("Antônio", "rocha"));
-        }
+        } 
     }
 }
