@@ -10,5 +10,15 @@ namespace Calculations
     {
         public string Name => "Antônio";
         public int Age => 26;
+
+        public int GetOrdersByName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new ArgumentException("Hello");
+            }
+
+            return 100;
+        }
     }
 }
